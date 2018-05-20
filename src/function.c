@@ -42,7 +42,7 @@ int Left(void){
 	return 0;
 }
 
-//PSD‚Ì’l‚ª500ˆÈã‚È‚ç‹È‚ª‚é
+//PSDï¿½Ì’lï¿½ï¿½500ï¿½Èï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½
 int Trace(int *sensor){
 	if(sensor[0] >= 500)		//sensor[0] PSD of left
 		Right();
